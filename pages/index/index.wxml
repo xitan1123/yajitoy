@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTapBackup" class="userinfo">
+  <view bindtap="bindViewTapBackup" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
@@ -10,9 +10,9 @@
   <view class="section">
     <view class="section__title">flex-direction: row</view>
     <view class="flex-wrp" style="flex-direction:row;">
-      <view class="flex-item bc_green">1</view>
-      <view class="flex-item bc_red">2</view>
-      <view class="flex-item bc_blue">3</view>
+      <view class="flex-item bc_green">1123</view>
+      <view class="flex-item bc_red">2234</view>
+      <view class="flex-item bc_blue">3321</view>
     </view>
   </view>
 </view>
