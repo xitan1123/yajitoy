@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+    <h1>11</h1>
+    <p id="result"></p>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(function () {
+    console.log(1123)
+    $.ajax({
+        url: 'http://127.0.0.1:8000/toy',
+        type: 'get',
+        dataType: 'json',
+        success: function (res) {
+            console.log(res)
+            $('#result').text(res.name)
+        }
+    })
+})
+</script>
+</html>
