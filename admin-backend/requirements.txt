@@ -1,0 +1,7 @@
+pymysql
+twisted
+pyramid
+gunicorn
+pyramid_jinja2
+pyramid_debugtoolbar
+waitress

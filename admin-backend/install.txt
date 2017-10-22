@@ -1,0 +1,5 @@
+pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com -r requirements.txt
+
+pserve development.ini
+
+gunicorn --paste production.ini -b 8000
